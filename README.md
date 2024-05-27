@@ -196,7 +196,7 @@ The wallets from groups 1 and 2 are all Sybil wallets operated by the same entit
 
 **Funding Pattern**
 
-![Important Diagram]()
+![Important Diagram](https://github.com/klasdqw/Repo/blob/main/1.png?raw=true)
 
 Graphic 1 shows that wallet address 0x1070298571B9156c9497827e116a75d1E383Cb6c (the last address in group 2) creates several wallets and then funds them. These wallets, in turn, create new wallets that exhibit almost the same transaction patterns as the parent wallet. The funding pattern of the wallets listed above thus forms a classic tree structure with wallet 0x1070298571B9156c9497827e116a75d1E383Cb6c as the root. Due to this cluster, there are numerous transactions between the individual wallets: Each listed wallet has interacted directly with at least one other wallet on the list. Each wallet, with few exceptions, receives its first deposit from another wallet on the list. It becomes immediately clear that this is a Sybil attacker when examining the transaction activities of the wallets for similarities in the context of this cluster structure.
 
@@ -204,7 +204,7 @@ Graphic 1 shows that wallet address 0x1070298571B9156c9497827e116a75d1E383Cb6c (
 
 Almost all of the listed wallets share the following transaction pattern on Linea:
 
-![Important Diagram]()
+![Important Diagram](https://github.com/klasdqw/Repo/blob/main/2.png?raw=true)
 
 The accounts, as shown here with wallet 0xABd724f2C82314cBE894B9f1d5d5A45909D68730 from group 2 as an example, conduct the following transactions:
 1. Interaction with zAce Chip
@@ -216,23 +216,23 @@ The accounts, as shown here with wallet 0xABd724f2C82314cBE894B9f1d5d5A45909D687
 
 The transaction history of the wallets on the Ethereum network is also very similar. The wallets interact with the same counterparties at the same intervals using similar amounts. Consider the following example:
 
-![Important Diagram]()
+![Important Diagram](https://github.com/klasdqw/Repo/blob/main/3.png?raw=true)
 
-![Important Diagram]()
+![Important Diagram](https://github.com/klasdqw/Repo/blob/main/4.png?raw=true)
 
 Graphic 3 shows wallet 0x1693112ab1925d23977717Fc25137d233920288F, and Graphic 4 shows wallet 0x5B87F55cDF6C26081c328B06a22E730eD2E5f5A1, two randomly selected wallet addresses. Note the red-marked areas: Both wallets interact consecutively with the projects zkSync, Polygon, Linea, Altlayer, Polyhydra Network, Omni Network, and Scroll at almost identical time intervals and with almost the same amounts. Subsequently, they receive Ether from Okx. In the interactions with Polygon and zkSync, the amounts for both wallets are even identical!
 
 Moreover, each of the listed wallets follows the following transaction pattern:
 
-![Important Diagram]()
+![Important Diagram](https://github.com/klasdqw/Repo/blob/main/5.png?raw=true)
 
 Without exception, every single wallet, such as the randomly selected wallet 0xD052A00932a8B3D805F359bfA4C79bdA5E3574f7 from group 2 (Graphic 5), received an amount in the range of 0.05-0.055 Eth on the Arbitrum network from the Okx Hot Wallet about a week ago and then immediately transferred the received Ether back to a separate Okx deposit address.
 
 The wallets also perform the following activities with variations in the order and the network used:
 
-![Important Diagram]()
+![Important Diagram](https://github.com/klasdqw/Repo/blob/main/6.png?raw=true)
 
-![Important Diagram]()
+![Important Diagram](https://github.com/klasdqw/Repo/blob/main/7.png?raw=true)
 
 The accounts first mint a Merkly Hyperlane NFT, which they immediately burn. They then mint and burn a GetMint NFT. These two activities are sometimes carried out on different networks. Then the wallets mint a Layer 3 Cube NFT and execute the aforementioned OKX transactions on Arbitrum. 
 Graphics 6 and 7 show the randomly selected wallets 0xb781ba845aDB5BF9FF2154e5C8F126F56ae7b616 from group 1 and 0xEc8719b439B745D5ff9D189550400B60AbE2087F, which is on LayerZero's initial list. Both follow this pattern: While the first wallet mints and burns the two NFTs on Arbitrum, the second wallet performs these transactions on the Base network. Both accounts then mint the Layer 3 Cube NFT and interact with OKX.
@@ -270,7 +270,7 @@ The following 25 addresses are part of this Sybil cluster but were already filte
 
 All wallets from group 3 have been funded by the address 0x521205abF224Dcb7eB5FF363E975C1D3a05192ba (the first wallet in group 3) with the ENS name elonmusk1971625.eth and form the second cluster in this report. All listed wallets have deposited funds into the same OKX deposit address (0xef9f8e6c1979b7E9196956244CC5Cc4A252DD80c).
 
-![Important Diagram]()
+![Important Diagram](https://github.com/klasdqw/Repo/blob/main/8.png?raw=true)
 
 In Graphic 8, I have entered all wallets from group 3 into the Arkham Tracer. Besides the transactions with elonmusk1971625.eth and the same OKX deposit address, the wallets also interact directly with each other at times.
 
@@ -278,7 +278,7 @@ In Graphic 8, I have entered all wallets from group 3 into the Arkham Tracer. Be
 
 At first glance, it is clear that the wallets have no economic purpose and were created solely for airdrop farming. All wallets, except the last one on the list, follow the following pattern on Ethereum:
 
-![Important Diagram]()
+![Important Diagram](https://github.com/klasdqw/Repo/blob/main/9.png?raw=true)
 
 On March 25, 2023, the wallets transferred Ether to zkSync, and on March 26, 2023, they all received 0.04 Ether. Subsequently, on the same day, the wallets bridged an amount of about 0.036 Ether to zkSync and transferred Gitcoin tokens on June 15, 2023, or June 16, 2023. There are also common transaction patterns on other networks like Linea and Polygon.
 
