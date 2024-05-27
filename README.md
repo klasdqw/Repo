@@ -325,7 +325,7 @@ The following wallets, which I also identified as part of this Sybil group durin
 
 The wallets in group 4 are all operated by the same person and form the third cluster of my report. These wallets received the exact same amount of Ether in a total of 6 Disperse App transactions. The transactions were conducted by the wallets 0x56a9108A50940F3471fABEC573dCC4D030421D80 and 0x0655F2EE873B08EF81dFB58CfA69d48Add5A5c23, which are listed last in group 4. Additionally, all addresses deposit funds into the same OKX deposit address (0xCfb2a94c453005Dd8F86A618145f549ba29A0723), indicating that all these addresses are operated by the same entity.
 
-![Important Diagram]()
+![Important Diagram](https://github.com/klasdqw/Repo/blob/main/10.png?raw=true)
 
 In Graphic 10, I inserted 8 randomly selected wallets into the Arkham Tracer. All deposit into the same OKX address and receive funds via the Disperse App from the addresses 0x56a and 0x065. Unfortunately, Arkham does not show the transfers originating from the Disperse App to the respective wallets in this graphic. The wallets sometimes interact directly with each other and were also funded directly by the wallet 0x065 on Binance Chain.
 
@@ -333,7 +333,7 @@ In Graphic 10, I inserted 8 randomly selected wallets into the Arkham Tracer. Al
 
 The wallets do not follow an economic purpose: they interact with small amounts with protocols like Scroll, zkSync, and Starknet to maximize profit in case of an airdrop.
 
-![Important Diagram]()
+![Important Diagram](https://github.com/klasdqw/Repo/blob/main/11.png?raw=true)
 
 As shown in Graphic 11, the Ethereum transaction history of the specified wallets is very sparse. There is no evidence of organic use. The wallets differ in their transaction count, but all interacted with zkSync on 08.09.2023, Starknet on 17.09.2023, and the Swell Network project on 23.09.2023.
 
@@ -343,17 +343,17 @@ As shown in Graphic 11, the Ethereum transaction history of the specified wallet
 
 On 04.01.2024, the wallets from group 5, forming cluster 4, were funded three times via Disperse App by the address 0x725DC93AF46673071897D8886BB4b3763869E2f9. In the first transaction (0xbddf8ef52be50f6863b3574177b1ec377ff976aef4bb36459f40adeb10351011), the wallets received different amounts of the AIT token, while in the second (0x1fbfe679ff9aee5945c2f33c4100d744a39922c3d8af37c6d956bec8824094ca) and third (0x7b0a9f3555b70a51ef0a4f5a32242d4978226a93bd0c4a05140548bd0898247b) transactions, Ether was distributed. In the third transaction, each wallet received exactly 0.01 Ether.
 
-![Important Diagram]()
+![Important Diagram](https://github.com/klasdqw/Repo/blob/main/12.png?raw=true)
 
 Graphic 12 shows the transaction pattern followed by the wallets in group 5, using the wallet 0x7a1223bE51CB47080FA2561aE9f7Fa0D295D558A as an example. The addresses receive a different number of AIT tokens via Disperse App, which they swap for Ether on Uniswap. The Ether obtained is then transferred to the addresses 0x7555692bF815cc2386E2C5d870aaeae4cBf088E3 and 0x811330fDBF7Cb217a9a340d803641c3Bf1B7aAf5, which subsequently transfer the funds to Binance.
 
-![Important Diagram]()
+![Important Diagram](https://github.com/klasdqw/Repo/blob/main/13.png?raw=true)
 
 Graphic 13 shows the Sybil structure. The wallets receive funds via Disperse App and transfer them to wallets 0x755 and 0x811, which in turn transfer the funds to the Binance account of the Sybil attacker. As shown, the wallets also interact with each other or directly deposit into the Binance address.
 
 **Transactions on Ethereum**
 
-![Important Diagram]()
+![Important Diagram](https://github.com/klasdqw/Repo/blob/main/14.png?raw=true)
 
 Graphic 14 shows the randomly selected wallet 0x957dEF46f9DA8AbbD9c2e3F0B1C4345989A3B5F3. This address has interacted with only 4 protocols, 2 of which are part of the LayerZero ecosystem. This lack of real usage indicates that the sole purpose of the wallets in group 5 is airdrop farming.
 
