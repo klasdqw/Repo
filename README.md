@@ -360,3 +360,11 @@ Graphic 14 shows the randomly selected wallet 0x957dEF46f9DA8AbbD9c2e3F0B1C43459
 **Methodology**
 
 I discovered Cluster 1 by analyzing the transactions of the smart contract 0x001FE350a8624166E946f0Ba67065a325bdDcc2B, which belongs to Alienswap. I noticed some batch transactions distributing exactly 0.008 Ether to wallets with the same Ethereum history. Upon closer inspection, I realized that all these wallets followed the same transaction pattern. I noted these wallets in group 1 and then analyzed who initially funded these addresses. I identified the wallet 0x1070298571B9156c9497827e116a75d1E383Cb6c as the root of the cluster. The addresses in group 2 are the wallets I found when tracing the cluster from 0x107 using Arkham Tracing. While manually analyzing another Sybil cluster on Etherscan, which often conducted transactions with multiple wallets in the same block, I came across the transaction 0x3d15c613bbed85cee89dacfda5d2e431af84a2c1d176859a50924da312ed5a3b, where the Sybil attacker from cluster 2 funded his wallets via Disperse App. I then started examining Disperse App transactions from that period to find more wallets of the Sybil. This led me to the transactions 0xa367e34b2aa4eaf0df31ea0e04c70f9d2dd8d44c7bcdc62c1aed7f5fa5c3dc09 (cluster 3) and 0x7b0a9f3555b70a51ef0a4f5a32242d4978226a93bd0c4a05140548bd0898247b (cluster 4).
+
+**Whitelisted Address**
+<pre>
+<code>
+0x06ED8A322fe62d2556c07001D13a1b9469A9F286
+</code>
+</pre>
+
