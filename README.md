@@ -91,6 +91,7 @@ GRAPHIC 9
 On March 25, 2023, the wallets transferred Ether to zkSync, and on March 26, 2023, they all received 0.04 Ether. Subsequently, on the same day, the wallets bridged an amount of about 0.036 Ether to zkSync and transferred Gitcoin tokens on June 15, 2023, or June 16, 2023. There are also common transaction patterns on other networks like Linea and Polygon.
 
 The following wallets, which I also identified as part of this Sybil group during my research, were filtered out in LayerZero's initial filtering process:
+
 0xdB5CCfE91652A8c694c024BcFbAD5c262968A635  
 0xB3ed852a7f49fc32D95006ace69CD42982978395  
 0x9508592B1792792B53ceD167b33DF77C184d724a  
